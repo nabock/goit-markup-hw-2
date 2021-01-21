@@ -18,6 +18,9 @@ body {
 a {
 	text-decoration: none;
 }
+ul{
+	list-style: none;
+}
 
 /* ul{
   list-style: none;
@@ -234,18 +237,21 @@ footer {
 	color: var(--primerry-bg-color);
 }
 
-address {
+.footer-adress {
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--primerry-bg-color);
+
 }
 
 .footer-link {
+	
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
-}
-
+	
 /* Portfolio */
 
 .filters-line {
@@ -266,7 +272,7 @@ button {
 	line-height: 1.62;
 	text-decoration: none;
 
-	padding: 22px 6px;
+	padding: 6px 22px;
 	border-radius: 4px;
 	min-width: 78px;
 	min-height: 38px;
