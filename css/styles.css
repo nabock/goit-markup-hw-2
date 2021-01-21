@@ -18,7 +18,7 @@ body {
 a {
 	text-decoration: none;
 }
-ul{
+ul {
 	list-style: none;
 }
 
@@ -242,16 +242,14 @@ footer {
 	font-size: 14px;
 	line-height: 1.71;
 	color: var(--primerry-bg-color);
-
 }
 
 .footer-link {
-	
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
-	
+}
 /* Portfolio */
 
 .filters-line {
